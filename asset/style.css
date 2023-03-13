@@ -60,7 +60,7 @@ body {
   text-align:center;
 }
 #section-c{
-  width: 2560px;
+  width: 100vw;
 }
 
 #section-c div{
@@ -72,7 +72,7 @@ body {
 }
 
  #section-c .block-1{
-  width: 850px;
+  width: 33vw;
   box-sizing: border-box;
   background:#926239;
   color:#fff;
@@ -80,12 +80,12 @@ body {
 #section-c .block-2{
   background:#f9f9f9;
   box-sizing: border-box;
-  width: 850px;
+  width: 33vw;
  
 }
 
  #section-c .block-3{
-  width: 850px;
+  width: 32.8502vw;
   box-sizing: border-box;
   background:#926239;
   color:#fff;
