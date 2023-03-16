@@ -6,33 +6,35 @@ body {
   color:#926239;
   line-height:1.6;
   background-color: #f9f9f9;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
-#bg-image{
+.bg-image{
   min-height: 100vh;
   background-image:url('beach.jpg');
   background-size:cover;
   background-position:center;
 }
-#preview{
+.preview{
   margin-top:-60vh;
   height:57.4vh;
   text-align: center;
 }
-#preview h1{
+.preview h1{
   font-size:50px;
   line-height:1.2;
   display: block;
   margin-bottom:5px;
 }
 
-#preview p{
+.preview p{
   max-width: 20%;
   margin-left:auto;
   margin-right:auto;
   font-size:25px;
   margin-top: 1px;
 }
-#preview .button{
+.preview .button{
   display: inline-block;
   font-size:18px;
   text-decoration:none;
@@ -44,23 +46,24 @@ body {
   
 }
 
-#section-a{
+.section-a{
   padding:20px;
   background:#926239;
   color:#fff;
   text-align:center;
   margin-top: -3px;
 }
-#section-b{
+.section-b{
   padding:20px;
   background:#f4f4f4;
   text-align:center;
 }
-#section-c{
+.section-c{
   width: 100vw;
+
 }
 
-#section-c div{
+.section-c div{
   padding:20px;
   
   display: inline-block;/* блоки зміщуются один під одного*/
@@ -68,20 +71,20 @@ body {
   
 }
 
- #section-c .block-1{
+ .section-c .block-1{
   width: 33vw;
   box-sizing: border-box;
   background:#926239;
   color:#fff;
 } 
-#section-c .block-2{
+.section-c .block-2{
   background:#f9f9f9;
   box-sizing: border-box;
   width: 33vw;
  
 }
 
- #section-c .block-3{
+ .section-c .block-3{
   width: 32.8502vw;
   box-sizing: border-box;
   background:#926239;
