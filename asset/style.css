@@ -7,33 +7,29 @@ body {
   font-size:17px;
   color:#926239;
   line-height:1.6;
-  background-color: #f9f9f9;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 .bg-image{
-  min-height: 100vh;
-  background-image:url('beach.jpg');
-  background-size:cover;
+  height: 100vh;
+  background-image:url('./beach.jpg');
   background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .preview{
   margin-top:-60vh;
-  height:57.4vh;
   text-align: center;
 }
 .preview>h1{
   font-size:50px;
   line-height:1.2;
-  display: block;
   margin-bottom:5px;
 }
 .preview>p{
   max-width: 20%;
-  margin-left:auto;
-  margin-right:auto;
+  margin: 1px auto;
   font-size:25px;
-  margin-top: 1px;
 }
 .preview .button{
   display: inline-block;
@@ -52,7 +48,7 @@ body {
 .section-a{
   padding:20px;
   text-align:center;
-  margin-top: 34px;
+  margin-top: 47vh;
 }
 .section-b{
   padding:20px;
@@ -64,12 +60,5 @@ body {
 .section-c div{
   padding:20px;
   display: inline-block;
-}
-.section-c .block{
-  width: 33vw;
-  box-sizing: border-box;
-} 
-.section-c .block-2{
-  box-sizing: border-box;
   width: 33vw;
 }
